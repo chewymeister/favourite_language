@@ -1,4 +1,4 @@
-favourite_language
+Favourite language
 ==================
 
 Uses the Github API to guess a user's favourite programming language
