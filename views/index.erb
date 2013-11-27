@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OctoGraph</title>
+</head>
+<body>
+  <h1>Find out a github users favourite programming language!</h1>
+  <form action="/" method="post">
+    <input type="text" name="user" value="Place username here">
+    <input type="submit">
+  </form>
+
+  <% if @user_name %>
+    <h2> Github user: <%= @user_name%> </h2>
+  <% end %>
+  <% if @language %>
+    <h2> Favourite language: <%= @language%> </h2>
+  <% end %>
+</body>
+</html>
